@@ -21,7 +21,7 @@ public class Minesweeper implements Runnable
 	
 	public static void main(String[] args)
 	{
-		new Thread().start();
+		new Thread((Runnable) new GUI()).start();
 
 	}
 
